@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color:antiquewhite
+    
+  }
+  h1 {
+  
+    color: saddlebrown;
+    position: absolute;
+    right: 50%;
+  }
+  
+  h2 {
+    position: absolute;
+    top: 56px;
+    right: 50%;
+    color: sandybrown;
+    
+  }
+  
+  .player{
+  
+    position: absolute;
+    top: 126px;
+    right: 10%;
+    color: saddlebrown
+    ;
+    
+    
+  }
+  
+  .cpu {
+    position: absolute;
+    left: 10%;
+    top: 61px;
+    color: saddlebrown
+    
+  }
+  button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    right: 50%;
+    top: 594px;
+    color: saddlebrown;
+    align-items: center;
+  }
+  
+  
+  #cardright{
+    font-size:60px;
+    position: absolute;
+    right: 30%;
+    top: 249px;
+    color: saddlebrown;
+    background-color: #fff;
+    border-radius: 0.20em;
+    border: 1px solid #c3c3c3;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75);
+    width: 4.0em;
+    height: 5.5em; 
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px 5px 50px 5px;
+    cursor: pointer;
+  }
+  
+  
+  #cardleft {
+    font-size: 60px;
+    position: absolute;
+    align-items: center;
+    right: 62%;
+    top: 249px;
+    color: saddlebrown;
+    background-color: #fff;
+    border-radius: 0.20em; 
+    border: 1px solid #c3c3c3;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 2px 2px 3px 0 rgba(41, 41, 41, 0.75); 
+    width: 4.0em;
+    height: 5.5em; 
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px 5px 50px 5px;
+    cursor: pointer;
+    
+    
+  }
