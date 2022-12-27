@@ -151,3 +151,12 @@ const player = {
     }
     
     document.getElementById('plays').addEventListener('click',buttonClick) 
+
+
+    function sumNumber(nums){
+      sum = 0
+      nums.forEach(function(num){
+        sum += num
+        return sum
+      })
+    }
